@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Hello, World!</title>
+    <style>
+        .white-keys {
+            text-align: center;
+            margin: 20% auto auto auto;
+        }
+
+        .black-keys {
+            text-align: center;
+            margin: 20% auto auto auto;
+        }
+
+        .white-keys  > kbd {
+            height: 80px;
+            width: 40px;
+            display: inline-block;
+            border: 1px solid black;
+            background-color: white;
+        }
+
+        .black-keys  > kbd {
+            height: 80px;
+            width: 40px;
+            display: inline-block;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body style="background-color: darkgray">
+
+<div class="container">
+    <div class="white-keys">
+        <kbd>A</kbd>
+        <kbd>S</kbd>
+        <kbd>D</kbd>
+        <kbd>F</kbd>
+        <kbd>G</kbd>
+        <kbd>H</kbd>
+        <kbd>J</kbd>
+    </div>
+
+    <div class="black-keys">
+        <kbd>W</kbd>
+        <kbd>E</kbd>
+        <kbd>T</kbd>
+        <kbd>Y</kbd>
+        <kbd>U</kbd>
+    </div>
+</div>
+</body>
+<script type="application/javascript"
+        src="piano.js"></script>
+</html>
